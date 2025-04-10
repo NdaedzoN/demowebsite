@@ -1,0 +1,136 @@
+/* Global Styles */
+/*
+Styling the body of the page
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/*
+Styling the header 1 and 3 of the page
+*/
+h1, h3 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+h1#theHeading {
+    color: #2980b9;
+}
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Form Styles */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3498db;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table.center {
+    text-align: center;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Lists Styling */
+ul, ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    form, footer {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
